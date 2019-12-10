@@ -1,0 +1,45 @@
+/*************************************************
+**  Description: Main css file
+*************************************************/
+
+body {
+    background-color: #bfdbdb3a; 
+}
+
+#recordForm {
+    width: 455px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: #d8e9e962;
+}
+
+#recordForm label, input {
+    margin: 2px;
+}
+
+#submit {
+    margin-top: 8px;
+}
+
+h1 {
+    margin-left: 110px;
+}
+
+.hideId {
+    display: none;
+}
+
+#recordTable {
+    margin-top: 20px;
+    margin-left:30px;
+    background-color: #ecf0f062;
+}
+
+#recordTable th, td {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#recordTable th {
+    background-color: #bdcfd462;
+}

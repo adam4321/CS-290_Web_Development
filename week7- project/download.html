@@ -1,0 +1,51 @@
+<!----------------------------------------------------------------------------------
+--  Description: download page html
+----------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>290 Project</title>
+  <meta name="author" content="Adam-Wright">
+  <meta name="description" content="OSU-cs290-project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/download-page.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Page Navbar -->
+    <div class="nav">
+        <ul>
+            <li class="home-link"><a href="./homepage.html">Home</a></li>
+            <li class="scroll-link"><a href="./scroll.html">Scrolling Information</a></li>
+            <li class="form-link"><a href="./form.html">Form</a></li>
+            <li class="download-link"><a class="active" href="./download.html">Download</a></li>
+        </ul>
+    </div>
+    
+    <h1>Download Page</h1>
+
+    <ul class="link-list">
+        <p>My personal links list</p>
+        <li class="li-item">My personal portfolio site link <a id="site-link" href="https://adamjwright.com">adamjwright.com</a></li>
+        <li class="li-item">Linkedin <a id="linked-link" href="https://www.linkedin.com/in/adamjw321/">linkedin.com</a></li>
+        <li class="li-item">Github <a id="git-link" href="https://github.com/adam4321">github.com</a></li>
+    </ul>
+
+    <!-- Download button -->
+    <p id="down-tag">Download a topographic map of Mt.Ranier</p>
+    <a href="images/mount-rainier-national-park-map.jpg" download>
+        <button class="btn"><i class="fa fa-download"></i> Download</button>
+    </a>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>

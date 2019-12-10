@@ -1,0 +1,67 @@
+<!----------------------------------------------------------------------------
+--  Author:       Adam Wright
+--  Description:  multipage project for OSU cs 290
+----------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>290 Project</title>
+  <meta name="author" content="Adam-Wright">
+  <meta name="description" content="OSU-cs290-project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/home-page.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Page Navbar -->
+    <div class="nav">
+        <ul>
+            <li class="home-link"><a class="active" href="./homepage.html">Home</a></li>
+            <li class="scroll-link"><a href="./scroll.html">Scrolling Information</a></li>
+            <li class="form-link"><a href="./form.html">Form</a></li>
+            <li class="download-link"><a href="./download.html">Download</a></li>
+        </ul>
+    </div>
+    
+    <h1>Homepage</h1>
+
+    <!-- The dots/circles -->
+    <div class="dot-div">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div> 
+
+     <!-- Automatic Slideshow container -->
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <img src="images/sign.jpg" style="width:100%">
+            <div class="text">Muir snowfield on Ranier</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="images/ranier.jpg" style="width:100%">
+            <div class="text">View of the path up the lower mountain</div>
+        </div>
+    
+        <div class="mySlides fade">
+            <img src="images/higher.jpg" style="width:100%">
+            <div class="text">View of the upper mountain</div>
+        </div>
+
+    </div>
+    <br>
+      
+    <script src="js/homepage.js"></script>
+</body>
+
+</html>

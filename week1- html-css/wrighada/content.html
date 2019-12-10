@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>cs290-HW1</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+
+  <body>
+
+    <!-- Homework item 1 6x6 Table -->
+
+    <table>
+        <caption>Who won? Cell content indicates the status of the row entry.</caption>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Godzilla</th>
+                <th>Batman</th>
+                <th>Shaq</th>
+                <th>Aaron Carter</th>
+                <th>Abe Lincoln</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="body">
+                <td class="first-col">Godzilla</td>
+                <td>N/A</td>
+                <td>Minor Loss</td>
+                <td>Loss</td>
+                <td>Unknown</td>
+                <td>Unknown</td>
+            </tr>
+            <tr class="body">
+                <td class="first-col">Batman</td>
+                <td>Minor Win</td>
+                <td>N/A</td>
+                <td>Total Victory</td>
+                <td>Total Victory</td>
+                <td>Total Loss</td>
+            </tr>
+            <tr class="body">
+                <td class="first-col">Shaq</td>
+                <td>Win</td>
+                <td>Total Loss</td>
+                <td>N/A</td>
+                <td>Minor Victory</td>
+                <td>Unknown</td>
+            </tr>
+            <tr class="body">
+                <td class="first-col">Aaron Carter</td>
+                <td>Unknown</td>
+                <td>Total Loss</td>
+                <td>Minor win</td>
+                <td>N/A</td>
+                <td>Unknown</td>
+            </tr>
+            <tr class="body">
+                <td class="first-col">Abe Lincoln</td>
+                <td>Unknown</td>
+                <td>Minor Loss</td>
+                <td>Loss</td>
+                <td>Unknown</td>
+                <td>Total Victoy</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Footer 1</td>
+                <td colspan="4">Footer 2</td>
+            </tr>
+        </tfoot>
+    </table> 
+
+    <!-- Homework item 2 Ordered List -->
+
+    <ol>
+        <li>Apples</li>
+        <li>Banannas</li>
+        <li>Pears</li>
+        <li>Watermelons</li>
+        <li>Cantelopes</li>
+    </ol>
+
+    <!-- Homework item 3 colored double box-->
+
+    <div class="outer-content">
+        <div class="inner-content">
+            <p>Here is some content</p>
+        </div>
+    </div>
+
+    <!-- Homework item 4 POST form-->
+
+    <p class="form-title">Some POST Data</p>
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST">
+        <div class="form-box">
+            <label for="text-box-1">Text here:</label>
+            <input type="text" id="text-box-1" name="text_input">
+        </div>
+        <div class="form-box">
+            <label for="num-box-1">Number here:</label>
+            <input type="text" id="num-box-1" name="numerical_input">
+        </div>
+        <div class="form-box">
+            <label for="pass-box-1">Password here:</label>
+            <input type="text" id="pass-box-1" name="password_input"></input>
+        </div>
+        <div class="form-box">
+            <p>Select between:</p>
+            <div class="vert-radio">
+                <input type="radio" id="select1" name="candy" value="snickers">
+                <label for="select1">Snickers</label>
+            
+                <input type="radio" id="select2" name="candy" value="skittles">
+                <label for="select2">Skittles</label>
+            
+                <input type="radio" id="select3" name="candy" value="mentos">
+                <label for="select3">Mentos</label>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- GET form -->
+
+    <p class="form-title">Some GET Data</p>
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="GET">
+        <div class="form-box">
+            <label for="text-box-2">Text here:</label>
+            <input type="text" id="text-box-2" name="text_input">
+        </div>
+        <div class="form-box">
+            <label for="num-box-2">Number here:</label>
+            <input type="text" id="num-box-2" name="numerical_input">
+        </div>
+        <div class="form-box">
+            <label for="pass-box-2">Password here:</label>
+            <input type="text" id="pass-box-2" name="password_input"></input>
+        </div>
+        <div class="form-box">
+            <p>Select between:</p>
+            <div class="vert-radio">
+                <input type="radio" id="select5" name="candy" value="snickers">
+                <label for="select5">Snickers</label>
+            
+                <input type="radio" id="select6" name="candy" value="skittles">
+                <label for="select6">Skittles</label>
+            
+                <input type="radio" id="select7" name="candy" value="mentos">
+                <label for="select7">Mentos</label>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+        </div>
+    </form>
+
+  </body>
+</html>

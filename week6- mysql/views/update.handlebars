@@ -1,0 +1,46 @@
+{{!--------------------------------------------------------------------------
+**  Description:  Hendlebars server side rendering file for update page of
+**                the application for editing a saved value.
+----------------------------------------------------------------------------}}
+
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<form id="recordForm" action="/update">
+    <fieldset>
+
+        <legend>Use this form to record your weightlifting statistics</legend>
+
+        <label for="exerciseName">Name</label>
+        <input type="text" name="exerciseName" id="exerciseName" value="{{workouts.name}}"> <br>
+
+        <label for="reps">Reps</label>
+        <input type="number" name="reps" id="reps" value="{{workouts.reps}}"> <br>
+
+        <label for="weight">Weight</label>
+        <input type="number" name="weight" id="weight" value="{{workouts.weight}}"> <br>
+
+        <label for="date">Date</label>
+        <input type="date" name="date" id="date" value="{{workouts.date}}"> <br>
+
+        {{!-- Render the correct state of the lbs/kgs radio button --}}
+        {{#if workouts.lbs}}
+        <label for="lbs">lbs</label>
+        <input type="radio" name="lbs" value="1" id="lbs" checked="checked">
+
+        <label for="kgs">kgs</label>
+        <input type="radio" name="lbs" value="0"><br>
+
+        {{else}}
+        <label for="lbs">lbs</label>
+        <input type="radio" name="lbs" value="1" id="lbs">
+
+        <label for="kgs">kgs</label>
+        <input type="radio" name="lbs" value="0" checked="checked"><br>
+        {{/if}}
+
+        {{!-- Track the id of the updated row with a hidden input --}}
+        <input type="hidden" name="id" value={{workouts.id}}>
+        <input type="submit" id="submit" value="Store this record">
+
+    </fieldset>
+</form>

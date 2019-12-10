@@ -1,0 +1,60 @@
+table, th, td {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+th, td {
+    padding: 5px;
+}
+
+.body:nth-of-type(2n) {
+    background-color: lightgreen;
+}
+
+.body:nth-of-type(2n+1) {
+    background-color: lightblue;
+}
+
+.first-col {
+    font-style: italic;
+}
+
+.outer-content {
+    margin: 20px;
+    width: 75%;
+    padding: 5px;
+    background-color: pink;
+}
+
+.inner-content {
+    margin: auto;
+    width: 75%;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.form-title {
+    margin: 20px 0px 0px 20px;
+}
+
+form {
+    width: 400px;
+    margin: 5px 0px 20px 20px;
+    padding:5px;
+    border: 1.5px solid #333;
+}
+
+.form-box {
+    border: 2px solid #CCC;
+    margin: 15px;
+    padding: 5px;
+}
+
+.vert-radio {
+    display: block;
+    width: 90px;
+}
+
+button {
+    margin: 20px 10px 10px 5px;
+}

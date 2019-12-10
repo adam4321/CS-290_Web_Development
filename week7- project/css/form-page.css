@@ -1,0 +1,48 @@
+/*************************************************************
+**  Description:  form page css styles
+*************************************************************/
+
+form {
+    width: 400px;
+    margin: 5px 0px 20px 20px;
+    padding:5px;
+    border: 1.5px solid #333;
+}
+
+#form2 {
+    top: 800px;
+    margin: 80px 0px 30px 720px;
+}
+
+#urlSubmit {
+    margin-left: 20px;
+    background-color: rgb(38, 91, 143);
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 25px;
+    width: 120px;
+}
+
+/* Darken button on mouse-over */
+#urlSubmit:hover {
+    background-color: rgba(27, 42, 88, 0.856);
+    transition: .4s background-color;
+}
+
+.reply {
+    margin-left: 710px;
+    margin-bottom: 8px;
+}
+
+.result {
+    margin-left: 730px;
+}
+
+#originalUrl {
+    margin-left: 72px;
+}
+
+#shortUrl {
+    margin-left: 51px;
+}

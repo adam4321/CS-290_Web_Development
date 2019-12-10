@@ -1,0 +1,53 @@
+<!----------------------------------------------------------------------------------
+--  Description: form page html
+----------------------------------------------------------------------------------->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>290 Project</title>
+  <meta name="author" content="Adam-Wright">
+  <meta name="description" content="OSU-cs290-project">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/form-page.css" rel="stylesheet"> 
+</head>
+
+<body>
+
+    <!-- Page Navbar -->
+    <div class="nav">
+        <ul>
+            <li class="home-link"><a href="./homepage.html">Home</a></li>
+            <li class="scroll-link"><a href="./scroll.html">Scrolling Information</a></li>
+            <li class="form-link"><a class="active" href="./form.html">Form</a></li>
+            <li class="download-link"><a href="./download.html">Download</a></li>
+        </ul>
+    </div>
+    
+    <h1>Form Page</h1>
+
+    <form id='form2'>
+        <fieldset>
+            <legend>Enter your email address to subscribe</legend>
+            <label for="longUrl"></label>
+            <input type="text" name="longUrl" id="longUrl">
+            <input type="submit" id="urlSubmit" value="Subscribe">
+        </fieldset>
+    </form>
+    <div>
+        <h2 class='result'>Address subscribed</h2>
+        <ul>
+            <li class='reply'><span>Entered Address:</span><span id="originalUrl"></span></li>
+            <li class='reply'><span>Registered Address:</span><span id="shortUrl"></span></li>
+        </ul>
+    </div>
+    
+    <script src="js/form.js"></script>
+</body>
+
+</html>

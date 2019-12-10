@@ -1,0 +1,11 @@
+{{!-----------------------------------------------------------------------
+--  Description:  Handlebars server side rendering file for main page of
+--                the application
+------------------------------------------------------------------------}}
+
+<h1>{{type}} Request Received</h1>
+<ul>
+    {{#each list}}
+        <li>{{this.name}}: {{this.value}}</li>
+    {{/each}}
+</ul>

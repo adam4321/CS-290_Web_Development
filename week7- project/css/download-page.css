@@ -1,0 +1,60 @@
+/*************************************************************
+**  Description:  download page css styles
+*************************************************************/
+
+.link-list {
+    margin-left: 550px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+
+.link-list p {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 185px;
+    margin-bottom: 50px;
+}
+
+.li-item {
+    padding: 15px;
+}
+
+#site-link {
+    margin-left: 220px;
+    font-size: 20px;
+}
+
+#linked-link {
+    margin-left: 405px;
+    font-size: 20px;
+}
+
+#git-link {
+    margin-left: 420px;
+    font-size: 20px;
+}
+
+/* Download button */
+#down-tag {
+    margin-top: 160px;
+    margin-left: 720px;
+    font-size: 20px;
+}
+
+.btn {
+    background-color: rgb(38, 91, 143);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 240px;
+    margin-top: 15px;
+    margin-left: 785px;
+}
+  
+/* Darken button on mouse-over */
+.btn:hover {
+background-color: rgba(27, 42, 88, 0.856);
+transition: .4s background-color;
+}

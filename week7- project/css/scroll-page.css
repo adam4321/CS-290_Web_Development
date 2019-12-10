@@ -1,0 +1,15 @@
+/*************************************************************
+**  Description:  scroll page css styles
+*************************************************************/
+
+#scroll-box {
+    height: 600px;
+    width: 800px;
+    border: 2px solid rgba(77, 75, 75, 0.651);
+    font: 16px/26px Georgia, Garamond, Serif;
+    padding: 15px;
+    margin-left: 520px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    overflow: auto;
+}
